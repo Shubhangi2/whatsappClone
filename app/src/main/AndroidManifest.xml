@@ -11,9 +11,6 @@
         android:theme="@style/Theme.WhatsappClone">
         <activity
             android:name=".SigninActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SignupActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,8 +19,11 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".SignupActivity"
+            android:exported="false"/>
+        <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
+            android:exported="false"/>
     </application>
 
 </manifest>

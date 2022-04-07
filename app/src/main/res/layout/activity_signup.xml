@@ -57,7 +57,7 @@
             android:padding="8dp" />
 
         <TextView
-            android:id="@+id/dont_have_acc"
+            android:id="@+id/already_have_acc"
             android:layout_width="wrap_content"
             android:layout_gravity="right"
             android:layout_marginHorizontal="10dp"
