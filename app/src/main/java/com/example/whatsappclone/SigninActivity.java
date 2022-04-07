@@ -28,8 +28,8 @@ public class SigninActivity extends AppCompatActivity {
 
         firebaseAuth = FirebaseAuth.getInstance();
         progressDialog = new ProgressDialog(this);
-        progressDialog.setTitle("Creating account");
-        progressDialog.setMessage("Please wait! we are creating your account.");
+        progressDialog.setTitle("SignIn account");
+        progressDialog.setMessage("Please wait! while sign in to your account.");
 
         binding.dontHaveAcc.setOnClickListener(new View.OnClickListener() {
             @Override
